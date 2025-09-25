@@ -1771,9 +1771,9 @@ flex-wrap:wrap;
 	}
 .info-logo .logo-link,
 #header .hd-logo .logo-link{
-	background-image:url(../img/main/logo/logo_slogan_kor_w.svg);
+	background-image:url(../../../../global/assets/img/common/tbr_logo8.png);
 	background-size:contain;
-	background-position: center bottom 6px;
+	background-position: center center;
 }
 .info-logo{
 	padding:6px 0;
@@ -2185,7 +2185,14 @@ video{background:#fff;}
 }
 .info-logo .logo-link, #header .hd-logo .logo-link {
     /* background-image: url(../../../../global/assets/img/common/busan_logo_wh.svg); */
-    background-image: url(../../../../global/assets/img/common/busan_logo.svg) no-repeat center bottom 6px/contain
+    background-image: url(../../../../global/assets/img/common/tbr_logo8.png) no-repeat center bottom 6px/contain
+}
+
+@media screen and (max-width: 1000px) and (min-height: 50px) and (max-height: 150px){
+#header .hd-logo .logo-link {
+    background-size: contain;
+    background-position: center center !important;
+}
 }
 #mainSection1 > .inner{
 	height:100%;
@@ -2223,7 +2230,7 @@ video{background:#fff;}
 }
 #header.active .hd-logo .logo-link,
 #header.slide .hd-logo .logo-link{
-	background-image: url(../../../../global/assets/img/common/busan_logo.svg);
+	background-image: url(../../../../global/assets/img/common/tbr_logo8.png);
 }
 .mainimg-slider .swiper-slide img {
 	position: absolute; 
